@@ -50,6 +50,7 @@ void	ft_palindrome(void)
 	int num2;
 	int times;
 	int rev_times;
+	int max_times;
 
 	num1 = 100;
 	num2 = 100;
@@ -64,7 +65,11 @@ void	ft_palindrome(void)
 
 			if(times - rev_times == 0)
 			{
-				printf("%dと%dの積は%dで回文数です\n", num1, num2, rev_times);
+				if ( max_times < rev_times)
+				{
+					max_times = rev_times;
+				}
+				// printf("%dと%dの積は%dで回文数です\n", num1, num2, rev_times);
 			}
 			num2++;
 
@@ -72,5 +77,7 @@ void	ft_palindrome(void)
 		num2 = 100;
 		num1++;
 	}
+
+	printf("最大の回文数は%dです\n", max_times);
 }
 
