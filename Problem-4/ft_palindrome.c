@@ -78,6 +78,6 @@ void	ft_palindrome(void)
 		num1++;
 	}
 
-	printf("最大の回文数は%dです\n", max_times);
+	printf("三桁同士の積の最大の回文数は%dです\n", max_times);
 }
 
