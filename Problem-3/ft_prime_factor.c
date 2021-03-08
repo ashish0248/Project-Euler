@@ -33,6 +33,5 @@ void	ft_prime_factor(long num)
 	}else{
 		printf("%ldの最大の約数は%ldです", num, divisor);
 	}
+	
 }
-
-
