@@ -16,7 +16,7 @@ void ft_sum_of_squares(void)
 		sum1 = sum1 + count * count;
 		count++;
 	}
-
+	
 	count = 1;
 	while(count < 101)
 	{

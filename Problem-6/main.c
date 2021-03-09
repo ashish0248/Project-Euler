@@ -10,7 +10,7 @@ int main(void)
 	clock_t start,end;
 	start = clock();
 
-	ft_sum_of_squares();
+		ft_sum_of_squares();
 
 	end = clock();
 	printf("%.2f秒かかりました\n", (double)(end-start)/CLOCKS_PER_SEC);
