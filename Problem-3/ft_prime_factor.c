@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <unistd.h>
 
 void	ft_prime_factor(long num)
 {
 	long count;
 	long divisor;
 	long num1;
-
 
 	count = 3;
 	divisor = 0;

@@ -1,7 +1,6 @@
 // https://odz.sakura.ne.jp/projecteuler/?Problem+3
 
 #include <stdio.h>
-#include <unistd.h>
 
 void	ft_prime_factor(long num);
 
