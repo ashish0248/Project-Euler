@@ -29,7 +29,6 @@ void ft_long_strings(char *array)
 		}
 		count++;
 	}
-
 printf("最も大きい積は%ldです\n", big_product);
 
 }
