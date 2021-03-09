@@ -19,7 +19,5 @@ void ft_least_common_multiple(void)
 			count = 1;
 		}
 	}
-
 	printf("最小公倍数は%ldです\n", num);
-
 }
