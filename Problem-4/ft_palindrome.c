@@ -17,7 +17,7 @@ int	ft_rev_times(int times)
 
 	while(count < 6)
 	{
-		// 一桁ずつ配列に入れる
+	// 一桁ずつ配列に入れる
 		array[count] = times / digit;
 		times = times % digit;
 		digit = digit / 10;
@@ -72,7 +72,6 @@ void	ft_palindrome(void)
 				// printf("%dと%dの積は%dで回文数です\n", num1, num2, rev_times);
 			}
 			num2++;
-
 		}
 		num2 = 100;
 		num1++;

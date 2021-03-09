@@ -7,7 +7,7 @@ void	ft_palindrome(void);
 
 int main(void)
 {
-
+	
 	ft_palindrome();
 
 	return (0);
