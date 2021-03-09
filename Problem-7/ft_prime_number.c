@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void ft_prime_number(int count)

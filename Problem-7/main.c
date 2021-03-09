@@ -15,7 +15,6 @@ int main(void)
 	clock_t start,end;
 	start = clock();
 
-
 		ft_prime_number(count);
 
 	end = clock();
