@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 
 void	ft_fibonacci(void)
 {
@@ -22,6 +21,7 @@ void	ft_fibonacci(void)
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%d\n", even);
 
+	printf("%d\n", even);
+	
 }

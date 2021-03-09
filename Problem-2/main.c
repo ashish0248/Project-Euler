@@ -2,7 +2,6 @@
 // 数列の項の値が400万以下の, 偶数値の項の総和を求めよ(値が偶数の項の総和を求めよ)
 
 #include <stdio.h>
-#include <unistd.h>
 
 void	ft_fibonacci(void);
 
