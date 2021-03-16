@@ -12,6 +12,7 @@ void ft_shortest_route(void)
         grid[y][0] = 1;
         y++;
     }
+    
     while(x < 21)
     {
         grid[0][x] = 1;
