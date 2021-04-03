@@ -77,7 +77,6 @@ void ft_number_char(void)
             // 100の位がある時(hundred and)
             len = ft_len(num / 100);
             result= result + 10 + len;
-
             num_2 = num % 100;
             if(num_2 == 0){
                 // andをつけない場合
