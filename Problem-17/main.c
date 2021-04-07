@@ -14,4 +14,5 @@ int main(void)
 	end = clock();
 	printf("\n%.2f秒かかりました\n", (double)(end-start)/CLOCKS_PER_SEC);
 	return (0);
+	
 }
