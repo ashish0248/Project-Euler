@@ -7,7 +7,6 @@ void	ft_fibonacci(void);
 
 int main(void)
 {
-
 	ft_fibonacci();
 
 	return (0);
