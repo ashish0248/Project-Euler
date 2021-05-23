@@ -1,4 +1,4 @@
-// https://odz.sakura.ne.jp/projecteuler/?Problem+16
+// https://odz.sakura.ne.jp/projecteuler/?Problem+17
 #include <stdio.h>
 #include <time.h>
 
